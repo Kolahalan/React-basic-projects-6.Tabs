@@ -12,7 +12,7 @@ function App() {
     setLoading(false)
     setJobs(jobs)
   }
-useState(()=>{
+useEffect(()=>{
 fetchjobs()
 },[])
   
